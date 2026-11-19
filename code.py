@@ -12,8 +12,14 @@
 #     print("the number is:",i)
 #     i += 1
 i = 21
-for i in range(1, 51):
-    if(i == 21):
-        continue
-    if(i % 3 == 0):
-        print("the number is:",i)       
+# for i in range(1, 51):
+#     if(i == 21):
+#         continue
+#     if(i % 3 == 0):
+#         print("the number is:",i)    
+
+def multiply(a, b):
+    return a * b
+result = multiply(5, 10)
+print("The result of multiplication is:", result)
+   
