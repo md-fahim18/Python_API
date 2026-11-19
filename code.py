@@ -23,3 +23,6 @@ def multiply(a, b):
 result = multiply(5, 10)
 print("The result of multiplication is:", result)
    
+test = [21, "fahim", 3.14, True]
+for item in test:   
+    print("The item is:", item)
